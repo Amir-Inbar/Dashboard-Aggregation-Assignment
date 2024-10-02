@@ -24,7 +24,7 @@ To run this application locally, follow these steps:
 3. Setup backend environment
 
    ```bash
-    cd Backend
+    cd backend
 
    ```
 
@@ -47,7 +47,7 @@ To run this application locally, follow these steps:
 7. Setup Frontend environment
 
    ```bash
-    cd Frontend
+    cd frontend
 
    ```
 
@@ -109,4 +109,5 @@ To finish, add some tests - it is up to you to decide how and what to test. Brie
 2. **Endpoint Update**: Modified the `/api/aggregation` endpoint to accept and handle `proxyId` as an additional parameter.
 3. **Data Handling**: Validated that the user requesting the data is requesting the correct proxy and has a valid request.
 4. **Testing**: Implemented tests to verify that the aggregation logic works correctly with multiple proxies, ensuring that each user can access data from their proxy and multiple proxies, depending on the product demands.
+
 # Dashboard-Aggregation-Assignment
